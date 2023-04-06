@@ -5,11 +5,9 @@ let ratingElement = document.querySelector("span");
 let ratingCard = document.querySelector(".rating-card");
 let thankYouCard = document.querySelector(".thank-you-card");
 
-function changeRating(){
-    let button = document.activeElement;
-    console.log(button.innerHTML);
+function changeRating(e){
+    let button = e.target;
     rating = button.innerHTML;
-    console.log(rating);
 }
 
 for(button of ratingBtns){
