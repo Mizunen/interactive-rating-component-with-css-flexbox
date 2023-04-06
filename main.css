@@ -79,6 +79,7 @@ body{
     border-style: none;
     border: none;
     color:hsl(217, 12%, 63%);
+    padding: 0;
 }
 
 .rating-button:hover{
